@@ -1,0 +1,6 @@
+age = input('Укажите свой возраст: ')
+name = input ('Введите Ваше имя: ')
+hobby = input('Какое у Вас хобби: ')
+print('Имя: ', name)
+print('Возраст: ',age)
+print ('Хобби:', hobby)
