@@ -37,7 +37,7 @@ class Cell:
         cell_view = ['*' for _ in range(self.qty_cells)]
         new_cell = ''.join(cell_view)
         while len(new_cell) > 0:
-            print(new_cell[:row])
+            new_cell[:row]
             new_cell = new_cell[:len(new_cell) - row]
         return '' #убирает вывод None. Не придумал как по-другому.
 

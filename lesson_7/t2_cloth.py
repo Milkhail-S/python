@@ -37,14 +37,6 @@ class Suit(Cloth):
         qty_of_textile = self.h * 2 + 0.3
         return qty_of_textile
 
-
-
-"""Расчёт общего требуемого количества ткани.
-При вызове с 1 аргументом требуем второй. При вызове с 2 аргументами говорит, что 3 это уже слишком:
-TypeError: __init__() takes 2 positional arguments but 3 were given
-Как вызвать super() правильно?
-"""
-
 class Fullset:
 
     def full_textile(self, v, h):
